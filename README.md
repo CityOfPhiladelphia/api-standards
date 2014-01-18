@@ -1,4 +1,4 @@
-# White House Web API Standards
+# City of Philadelphia API Guidelines
 
 * [Guidelines](#guidelines)
 * [Pragmatic REST](#pragmatic-rest)
