@@ -135,6 +135,7 @@ Use three simple, common response codes indicating (1) success, (2) failure due 
 ## Versions
 
 * Never release an API without a version number.
+* A new version should be added only when the changes break existing specification, NOT when there are code changes or new functionality is added to the API
 * Versions should be integers, not decimal numbers, prefixed with ‘v’. For example:
     * Good: v1, v2, v3
     * Bad: v-1.1, v1.2, 1.3
