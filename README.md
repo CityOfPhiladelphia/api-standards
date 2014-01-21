@@ -136,10 +136,9 @@ Use three simple, common response codes indicating (1) success, (2) failure due 
 
 * Never release an API without a version number.
 * A new version should be added only when the proposed changes break the existing specification, NOT when there are code changes or new functionality added to the API
-* Versions should be integers, not decimal numbers, prefixed with ‘v’. For example:
-    * Good: v1, v2, v3
-    * Bad: v-1.1, v1.2, 1.3
-* Maintain APIs at least one version back.
+* Versions may be integers or decimal numbers, prefixed with ‘v’. For example:
+    * v1, v2, v3 v1.2, 1.3
+* Maintain APIs at least one version back, for a period of no less than 6 months.
 
 
 ## Record limits
