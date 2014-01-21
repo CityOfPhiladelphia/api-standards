@@ -14,7 +14,7 @@
 
 ## Guidelines
 
-This document provides guidelines and examples for City of Philaelphia Web APIs, encouraging consistency, maintainability, and best practices across applications. City of Philaelphia APIs aim to balance a truly RESTful API interface with a positive developer experience (DX).
+This document provides guidelines and examples for City of Philadelphia Web APIs, encouraging consistency, maintainability, and best practices across applications. City of Philadelphia APIs aim to balance a truly RESTful API interface with a positive developer experience (DX).
 
 This document borrows heavily from:
 * [Designing HTTP Interfaces and RESTful Web Services](http://munich2012.drupal.org/program/sessions/designing-http-interfaces-and-restful-web-services)
