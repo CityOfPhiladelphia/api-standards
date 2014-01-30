@@ -293,3 +293,11 @@ JSONP is easiest explained with an example. Here's one from [StackOverflow](http
 >         };
 
 http://stackoverflow.com/questions/2067472/what-is-jsonp-all-about?answertab=votes#tab-top
+
+## Securing and Managing APIs
+
+APIs should always be deployed behind an API management component that provides - where appropriate - security, cacheing and throttling. This component should sit between API consumers and API endpoints themselves. Public API endpoints should never be exposed directly to API consumers - all traffic should go through an API management component.
+
+## Separation of Concerns
+
+The job of an API is to respond to requests for a resource with properly formatted response. Authentication, cacheing, throttling, etc, should all be done at the API management component level, by a separate component that performs these functions where needed. Adding specific logic to an API to perform authentication, cacheing or request throttling should be avoided..
