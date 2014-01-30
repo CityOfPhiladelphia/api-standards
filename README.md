@@ -11,6 +11,8 @@
 * [Request & Response Examples](#request--response-examples)
 * [Mock Responses](#mock-responses)
 * [JSONP](#jsonp)
+* [Securing & Managing APIs](#securing--managing-apis)
+* [Separation of Concerns](#separation-of-concerns)
 
 ## Guidelines
 
